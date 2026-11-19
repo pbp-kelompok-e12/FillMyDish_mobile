@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../screens/home_page.dart';
+import '../screens/saved_recipe_page.dart';
 
 class AppScaffold extends StatefulWidget {
   const AppScaffold({super.key});
@@ -47,10 +48,12 @@ class _AppScaffoldState extends State<AppScaffold> {
           ],
         ),
       ),
-      body: _selectedIndex == 0
-          ? HomePage(onFindRecipe: () => _openPage(1))
-          : Center(
-              child: Text('Halaman ${_pages[_selectedIndex]} masih sementara.'),
+        body: _selectedIndex == 0
+            ? HomePage(onFindRecipe: () => _openPage(1))
+            : _selectedIndex == 2
+            ? const SavedRecipePage()
+            : Center(
+                child: Text('Halaman ${_pages[_selectedIndex]} masih sementara.'),
             ),
     );
   }
