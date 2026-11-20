@@ -48,6 +48,13 @@ Pengguna dapat memberikan ulasan terhadap website, mengedit ulasan, menghapus ul
 
 https://spoonacular.com/food-api/docs
 
+### Daftar API Tiap Modul
+Profile :
+Recipe Finder :
+Saved Recipe : GET /api/saved-recipes/
+Meal Plan : GET /api/meal-plans/ 
+Review : 
+
 ### Figma
 
 https://www.figma.com/files/team/1569679838448420365/folder/655611366?fuid=1687367044933420310
