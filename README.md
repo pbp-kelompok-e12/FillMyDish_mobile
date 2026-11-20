@@ -50,11 +50,11 @@ Flutter akan meminta data melalui REST API FillMyDish di Django. Django mengambi
 https://spoonacular.com/food-api/docs
 
 ### Daftar API Tiap Modul
-1. Profile :
-2. Recipe Finder :
+1. Profile : GET /api/profile-page/
+2. Recipe Finder : GET /api/recipes/
 3. Saved Recipe : GET /api/saved-recipes/
 4. Meal Plan : GET /api/meal-plans/ 
-5. Review : 
+5. Review : GET /api/review/
 
 ### Figma
 
