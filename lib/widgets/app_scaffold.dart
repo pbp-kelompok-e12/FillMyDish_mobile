@@ -58,9 +58,9 @@ class _AppScaffoldState extends State<AppScaffold> {
             : _selectedIndex == 3
             ?const MealPlanPage()
             : _selectedIndex == 4
-            ? const ReviewPage()
-            : _selectedIndex == 5
             ? const ProfilePage()
+            : _selectedIndex == 5
+            ? const ReviewPage()
             : Center(
                 child: Text('Halaman ${_pages[_selectedIndex]} masih sementara.'),
             ),

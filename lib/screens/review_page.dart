@@ -6,7 +6,7 @@ class ReviewPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: Text('Your review will appear here.'),
+      child: Text('Your reviews will appear here.'),
     );
   }
 }
