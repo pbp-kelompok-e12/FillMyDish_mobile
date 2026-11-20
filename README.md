@@ -45,6 +45,7 @@ Pengguna dapat memberikan ulasan terhadap website, mengedit ulasan, menghapus ul
 | Admin (Django admin, hanya di web) | Menyembunyikan review lewat `is_visible`; di aplikasi, review tersebut tidak ditampilkan |
 
 ### API
+Flutter akan meminta data melalui REST API FillMyDish di Django. Django mengambil data dari database dan mengirimkannya sebagai JSON untuk ditampilkan di Flutter. Spoonacular adalah layanan eksternal yang dipanggil oleh Django untuk mencari resep. Pada Checkpoint 1, navigasi Flutter dan endpoint Django disiapkan terpisah, jadi data API belum ditampilkan di Flutter.
 
 https://spoonacular.com/food-api/docs
 
