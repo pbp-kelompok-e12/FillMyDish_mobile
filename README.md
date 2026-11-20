@@ -35,6 +35,15 @@ Pengguna dapat membuat rencana makan dari resep-resep yang sudah tersimpan dan m
 5. Review (Parsya)
 Pengguna dapat memberikan ulasan terhadap website, mengedit ulasan, menghapus ulasan, dan memberikan bintang berdasarkan kepuasan mereka.
 
+### Peran Pengguna
+
+| Peran | Akses di aplikasi |
+|---|---|
+| Guest (belum login) | Home, cari resep, review (hanya lihat), login/register |
+| User | Semua fitur: cari resep, simpan resep, meal plan, review, profil |
+| Moderator | Fitur User + halaman log request mencurigakan (flag/clear) |
+| Admin (Django admin, hanya di web) | Menyembunyikan review lewat `is_visible`; di aplikasi, review tersebut tidak ditampilkan |
+
 ### API
 
 https://spoonacular.com/food-api/docs
