@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../screens/home_page.dart';
 import '../screens/saved_recipe_page.dart';
 import '../screens/meal_plan_page.dart';
+import '../screens/review_page.dart';
 
 class AppScaffold extends StatefulWidget {
   const AppScaffold({super.key});
@@ -55,6 +56,8 @@ class _AppScaffoldState extends State<AppScaffold> {
             ? const SavedRecipePage()
             : _selectedIndex == 3
             ?const MealPlanPage()
+            : _selectedIndex == 4
+            ? const ReviewPage()
             : Center(
                 child: Text('Halaman ${_pages[_selectedIndex]} masih sementara.'),
             ),
