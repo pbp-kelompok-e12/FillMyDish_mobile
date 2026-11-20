@@ -4,6 +4,7 @@ import '../screens/saved_recipe_page.dart';
 import '../screens/meal_plan_page.dart';
 import '../screens/review_page.dart';
 import '../screens/profile_page.dart';
+import '../screens/recipe_finder_page.dart';
 
 class AppScaffold extends StatefulWidget {
   const AppScaffold({super.key});
@@ -53,6 +54,8 @@ class _AppScaffoldState extends State<AppScaffold> {
       ),
         body: _selectedIndex == 0
             ? HomePage(onFindRecipe: () => _openPage(1))
+            : _selectedIndex == 1
+            ? const InputPage()
             : _selectedIndex == 2
             ? const SavedRecipePage()
             : _selectedIndex == 3
