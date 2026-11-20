@@ -51,7 +51,7 @@ https://spoonacular.com/food-api/docs
 
 ### Daftar API Tiap Modul
 1. Profile :
-2. Recipe Finder :
+2. Recipe Finder : GET /api/recipes/
 3. Saved Recipe : GET /api/saved-recipes/
 4. Meal Plan : GET /api/meal-plans/ 
 5. Review : 
